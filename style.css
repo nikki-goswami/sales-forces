@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-section{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 1500px;
+    height: 86px;
+    background-color: #fff;
+    z-index: 20000;
+    border:  2px solid red;
+    margin: auto;
+    /* padding: 30px 0px; */
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.logo{
+    width: 68px;
+    height:48px;
+    padding-bottom:15px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+     /* padding: 15px 0px;  */
+    margin-left: 15px;
+}
+.input-section{
+    border: 2px solid rgb(169, 169, 228);
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+}
+.input-section span{
+    padding-right: 10px;
+}
+.cotact-us-section p{
+    color: #032d60;
+    padding-bottom: 10px;
+}
+.nav-image{
+    width: 18px;
+    height: 18px;
+}
+.nav-image img{
+    width: 100%;
+    height: 100%;
+}
+.login-part{
+    width: 90px;
+    height: 40px;
+    /* border-radius: 15px; */
+    display: flex;
+    color: rgb(95, 90, 90);
+    /* gap: 5px; */
+    
+
+}
+.img1{
+    width:40px;
+    height: 20px;
+
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.button-btn{
+    width: 135px;
+    height: 43px;
+    background-color: green;
+    padding: 12px 0;
+    padding-left: 20px;
+}
+.button-btn button{
+    border: none;
+    background-color: green;
+    font-size: 18px;
+    color: white;
+}
+.header-section2{
+    width: 100%;
+    margin: auto;
+}
+.second-header-section{
+    width: 1500px;
+    height: 400px;
+    margin: auto;
+    background-image: url("https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/12/marquee-our-story-bg.jpg?resize=2048,640");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.left-second-header-section h1{
+    margin-bottom: 15px;
+}
+.left-second-header-section p{
+    margin-bottom: 15px;
+}
+.btn{
+    width: 155px;
+    height: 51px;
+    background-color: #0176D3;
+    padding-top: 15px;
+    padding-left: 28px;
+}
+.btn button{
+    border: none;
+    background-color: #0176D3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.right-second-header-section{
+    width: 620px;
+    height: 288px;
+     background-color: black; 
+    position: relative;
+}
