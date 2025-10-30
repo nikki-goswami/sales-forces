@@ -23,7 +23,10 @@
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 66666666;
 }
 .logo{
     width: 68px;
@@ -100,7 +103,7 @@
 }
 .second-header-section{
     width: 1500px;
-    height: 400px;
+    /* height: 400px; */
     margin: auto;
     background-image: url("https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/12/marquee-our-story-bg.jpg?resize=2048,640");
     background-repeat: no-repeat;
@@ -108,6 +111,8 @@
     padding: 64px 0px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
+    position: relative;
     margin-bottom: 20px;
     
 }
@@ -136,4 +141,295 @@
     height: 288px;
      background-color: black; 
     position: relative;
+}
+
+
+.header-section3{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.header-section3-container{
+width: 1500px;
+height: 700px;
+margin: auto;
+padding: 20px 30px;
+background-image: url("https://wallpapers.com/images/high/salesforce-background-u0eysycgpq5dzrgn.webp");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.header-section3-container h2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.row2-section3{
+    width: 1280px;
+    /* height: 426px; */
+    padding-top: 15px;
+     margin: auto; 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.first-box-section3{
+    height: 350px;
+    /* width: 226px; */
+    width: 230px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.img-content-section{
+    width:100%;
+    /* height: 108px; */
+     padding: 15px; 
+    margin-bottom: 20px;
+    
+}
+.img-content-section h3{
+    width: 100%;
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.img-content-section p{
+    width: 100%;
+    
+    margin-left: 20px;
+    
+}
+.div-btn{
+    width: 90px;
+    height: 27px;
+    margin-left: 40px;
+}
+.div-btn button{
+    border: none;
+    color: #032d60;
+    font-size: 16px;
+}
+
+.img-animation :hover{
+    transform: scale(1.1);
+}
+.img-animation img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.view-all-product{
+        width: 229px;
+        height: 51px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 32px;
+        border: 2px solid rgb(114, 114, 195);
+        background-color: #fff;
+}
+
+
+.view-all-product button{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #032d60;
+}
+
+.header-section4{
+    width: 100%;
+    margin: auto;
+}
+.header-section4-containe{
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.row1-section4{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.row1-section4 h2{
+    width: 840px;
+    height: 112px;
+    text-align: center;
+    
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.row2-section4{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-bottom: 30px;
+}
+.row2-section4 p{
+    width: 728px;
+    height: 84px;
+    text-align: center;
+    color: #181818;
+    line-height: 28px;
+    font-size: 17px;
+}
+.row3-section4{
+    width: 840px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span-btn{
+    width: 173px;
+    height: 51px;
+    padding: 20px 32px;
+    background-color: #0176D3;
+    margin-right: 25px;
+}
+.span-btn button{
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #0176D3;
+    color: white;
+}
+.span-btn2{
+    width: 173px;
+    height: 51px;
+    padding: 20px 32px;
+    background-color: white;
+    border:  2px solid rgb(19, 123, 219); ;
+}
+.span-btn2 button{
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+}
+.header-section5{
+    width: 100%;
+    margin: auto;
+}
+.header-sections5-container{
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.row-section5{
+    width: 840px;
+    /* height: 128px; */
+    margin: auto;
+    padding: 40px ;
+    margin-bottom: 40px;
+}
+.row-section5 h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #031610;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.row-section5 p{
+    width: 648px;
+    height: 56px; 
+    line-height: 28px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.row2-section5{
+    width: 1280px;
+    height: 532px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.row2-box1-section5{
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box1-section5{
+    width: 318px;
+    height: 400px;
+}
+.image-box1-section5{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.image-box1-section5 img{
+    width: 100%;
+    height: 100%;
+}
+.module{
+    width: 68px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: #a0c7e7;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+.h2-content-section5{
+    color: #032d60;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom:15px ;
+}
+.para-contnet-section5{
+    margin-bottom: 30px;
+}
+
+.para-contnet-section5 p{
+    line-height: 28px;
+}
+.start-learing h4{
+    color: #031610;
+}
+.learn-for-free{
+    width: 194px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    border: 2px solid #032d60;
+    padding: 30px;
+    background-color: #ffff;
+}
+.learn-for-free button{
+     border:  none;
+     color: #032d60;
+         background-color: #ffff;
+         font-size: 18px;
+         font-weight: 600;
 }
