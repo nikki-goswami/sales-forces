@@ -27,6 +27,7 @@
     top: 0;
     left: 0;
     z-index: 66666666;
+    
 }
 .logo{
     width: 68px;
@@ -43,6 +44,29 @@
     gap: 20px;
      /* padding: 15px 0px;  */
     margin-left: 15px;
+    position: relative;
+}
+.list-item li:hover{
+    color: #0176D3;
+}
+.submenu{
+    list-style: none;
+            width: 120px;
+            background-color:white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            position: absolute;
+            /* top: 100%;
+            bottom:90px; */
+            top:58px;
+            /* left:400px; */
+            right: -5%;
+            display: none;
+} 
+ .submenu li{
+            padding:5px;
+        }
+.list-item li:hover .submenu{
+    display: block;
 }
 .input-section{
     border: 2px solid rgb(169, 169, 228);
@@ -55,7 +79,7 @@
 }
 .cotact-us-section p{
     color: #032d60;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 .nav-image{
     width: 18px;
@@ -67,14 +91,18 @@
 }
 .login-part{
     width: 90px;
-    height: 40px;
+    /* height: 40px; */
     /* border-radius: 15px; */
     display: flex;
     color: rgb(95, 90, 90);
     /* gap: 5px; */
+
     
 
 }
+
+
+
 .img1{
     width:40px;
     height: 20px;
