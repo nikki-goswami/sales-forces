@@ -3,8 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
+/* custom font added */
+
+@font-face {
+    font-family: Saleforce;
+    src: url(./Salesforce-Font/Aller_Bd.ttf) format('TrueType');
+}
+
+/* custom font added */
 .header-section{
     width: 100%;
     margin: auto;
@@ -460,4 +467,15 @@ background-size: cover;
          background-color: #ffff;
          font-size: 18px;
          font-weight: 600;
+}
+
+/* From gill branch css */
+
+.companies{
+    text-align: center ;
+}
+.companies h1{
+    font-family: "salesforce";
+    font-weight: 700;
+    font-size: 60px;
 }
